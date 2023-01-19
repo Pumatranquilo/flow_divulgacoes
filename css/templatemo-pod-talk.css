@@ -251,7 +251,7 @@ main {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image:url("../images/footer.jpg")  linear-gradient(to bottom, #6d6027, #d3cbb8);
+  background-color: rgb(54, 53, 53);/*url("../images/footer.jpg")  linear-gradient(to bottom, #6d6027, #d3cbb8);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -485,7 +485,7 @@ main {
   CAROUSEL        
 -----------------------------------------*/
 .hero-section {
-  background-image:url("../images/footer.jpg"), radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+  background-color:rgb(54, 53, 53);/*url("../images/footer.jpg"), radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );*/
   background-repeat: no-repeat;
   background-size: 108% 76%;
   background-position: top;
@@ -524,17 +524,15 @@ main {
 
 .owl-carousel-info-wrap {
   border-radius: var(--border-radius-medium);
-  border: solid 2px white;
+  border: solid 2px rgb(128, 128, 128);
   position: relative;
   overflow: hidden;
   text-align: left;
 }
 
 .owl-carousel-info {
-  background: #c2e59c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border: solid 2px white;
+  background-color: rgb(190, 190, 190);
+  border: solid 2px rgb(128, 128, 128);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -543,11 +541,12 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
 }
 
 .badge {
-  background-color: var(--custom-btn-bg-color);
+  background-color: rgb(128, 128, 128);
   font-family: var(--title-font-family);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   padding-bottom: 5px;
+  border: solid 1px rgb(128, 128, 128);
 }
 
 .owl-carousel-info-wrap .social-share,
@@ -611,9 +610,7 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
   CUSTOM BLOCK              
 -----------------------------------------*/
 .custom-block {
-background: #c2e59c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: rgb(190, 190, 190);
 
   border: 2px solid var(--primary-color);
   border-radius: var(--border-radius-medium);
@@ -1023,7 +1020,7 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url("../images/footer.jpg"), radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+  background-color: rgb(54, 53, 53);/* url("../images/footer.jpg"), radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );*/
   background-size: cover;
   background-position: center;
   margin-top: -80px;
@@ -1097,7 +1094,9 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
 }
 
 .social-icon-link {
-  background: var(--secondary-color);
+  /*
+  background: var(--secondary-color);*/
+  background: rgb(54, 53, 53);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--p-font-size);
@@ -1111,7 +1110,9 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
 }
 
 .social-icon-link:hover {
-  background: var(--primary-color);
+  background: #b1b0b0;
+  /*
+  background: var(--primary-color);*/
   color: var(--white-color);
 }
 

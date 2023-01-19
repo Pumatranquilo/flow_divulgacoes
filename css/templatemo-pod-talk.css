@@ -31,15 +31,15 @@ https://templatemo.com/tm-584-pod-talk
   --h1-font-size:                 58px;
   --h2-font-size:                 46px;
   --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
+  --h4-font-size:                 15px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
   --p-font-size:                  16px;
   --menu-font-size:               14px;
 
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
+  --border-radius-large:          2px;
+  --border-radius-medium:         2px;
+  --border-radius-small:          1px;
 
   --font-weight-light:            300;
   --font-weight-normal:           400;
@@ -502,7 +502,7 @@ main {
 
 .owl-carousel .owl-item .owl-carousel-verified-image {
   display: inline-block;
-  width: 30px;
+  width: 15px;
   height: auto;
   position: relative;
   right: 5px;
@@ -510,7 +510,7 @@ main {
 
 .verified-image {
   display: inline-block;
-  width: 20px;
+  width: 15px;
   height: auto;
 }
 
@@ -524,14 +524,17 @@ main {
 
 .owl-carousel-info-wrap {
   border-radius: var(--border-radius-medium);
+  border: solid 2px white;
   position: relative;
   overflow: hidden;
   text-align: left;
 }
 
 .owl-carousel-info {
-  background-color: var(--section-bg-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: solid 2px white;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -608,6 +611,10 @@ main {
   CUSTOM BLOCK              
 -----------------------------------------*/
 .custom-block {
+background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   border: 2px solid var(--primary-color);
   border-radius: var(--border-radius-medium);
   position: relative;
@@ -704,6 +711,9 @@ main {
 .custom-block .custom-btn {
   font-size: var(--menu-font-size);
   padding: 7px 15px;
+}
+.cor{
+  color: white;
 }
 
 .custom-block .custom-block-info + div .badge {
